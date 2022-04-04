@@ -12,17 +12,17 @@
 */
 
 export function hasClass(elem, elemClass) {
-    return this.classList.contains(elemClass);
+    return elem.classList.contains(elemClass);
 }
 
 export function addClass(elem, elemClass) {
-    this.classList.add(elemClass);
+    elem.classList.add(elemClass);
 }
 
 export function removeClass(elem, elemClass) {
-    this.classList.remove(elemClass);
+    elem.classList.remove(elemClass);
 }
 
 export function toggleClass(elem, elemClass) {
-    this.classList.toggle(elemClass);
+    elem.classList.toggle(elemClass);
 }
